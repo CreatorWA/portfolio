@@ -142,7 +142,7 @@
                             <textarea id="message" name="message" required placeholder="010-0000-0000">
                                 </textarea>
                         </div>
-                        <button type="submit">문의하기</button>
+                        <button type="button">문의하기</button>
                     </form>
                 </div>
                 <div class="email_info">
@@ -258,34 +258,8 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-                publicKey: "prBM1BPYQKZAQg1Hb",
-            });
-        })();
-    </script>
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-            // these IDs from the previous steps
-            emailjs.sendForm('service_vay156s', 'template_f9db4kb', this)
-                .then(() => {
-                    console.log('SUCCESS!');
-                    alert('메일 전송에 성공하였습니다.');
-                }, (error) => {
-                    console.log('FAILED...', error);
-                    alert('메일 전송에 실패하였습니다.');
-                });
-        });
-    </script>
+    
 
-    <!--
-퍼블릭키 prBM1BPYQKZAQg1Hb
-Service ID:service_vay156s
-Template ID:template_f9db4kb -->
 
     <script src="../common/js/jquery-1.12.4.min.js"></script>
     <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
