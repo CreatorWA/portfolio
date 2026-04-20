@@ -54,5 +54,5 @@ Figma / Adobe Firefly / Midjourney / Adobe Photoshop / Adobe Illustrator / Adobe
     유기적인 그리드 (벽돌 쌓기) 레이아웃 구성
 8. 유튜브 영상 팝업 기능 : Magnific Popup 플러그인을 활용하여 반응형 팝업(iframe)으로 구현
 
-* AI 생성형 이미지 갤러리 - 제미나이 파이어플라이를 활용하여 제작한 이미지를 V0에서 웹페이지로 구현, Cursor에서 완성
+* AI 생성형 이미지 갤러리 - 제미나이와 파이어플라이를 활용하여 제작한 이미지를 V0에서 웹페이지로 구현, Cursor에서 완성
 
