@@ -1,0 +1,58 @@
+# WEB PORTFOLIO
+기업형 웹(PC), 모바일 웹, 반응형 웹 포트폴리오입니다.
+기획 및 디자인부터 마크업(프로그래밍)까지 100% 기여하였습니다. 
+
+
+## 🔗 PORTFOLIO URL
+* 기업형 웹 프로젝트(국립과천과학관)
+    + https://science-museum-pc.vercel.app/
+* 모바일 웹 프로젝트(국립과천과학관) 
+    + https://science-museum-mobile.vercel.app/
+* 반응형 웹 프로젝트(그리스) 
+    + https://greece-visit-media.vercel.app/
+* 생성형 이미지 갤러리 
+    + https://ai-gallery-m.vercel.app/gallery
+* 프로필 및 포트폴리오 링크
+    + https://profile-mbr.vercel.app/
+
+
+### ⚒️ SKILLS
+Figma / Adobe Firefly / Midjourney / Adobe Photoshop / Adobe Illustrator / Adobe InDesign / V0 / Next.js / Google stitch / Cursor / shadcn/ui / Vercel / HTML5 / Tailwind CSS v4 / CSS3 / JavaScript / jQuery / 비동기 처리(AJAX, JSON) / Git / GitHub
+
+### ⚠️ 웹 표준 / 웹 접근성
+* W3C 마크업검사 및 css검사 완료 
+* 웹 접근성검사(K-WAH) 완료 
+* 크로스브라우징 (크롬, 사파리, 엣지, 파이어폭스, 오페라) 테스트 완료
+* 시멘틱 마크업, 아웃라인 정돈
+* img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
+
+### 🖥️ UIUX
+
+* 기업형(PC) / 모바일 웹사이트
+완성된 기업형 PC사이트 제작과 동일 콘텐츠와 디자인 요소를 기반으로,
+모바일 웹사이트를 별도로 최적화하여 제작
+
+1. 웹 표준/접근성 준수 리뉴얼 : KWCAG 웹 접근성 및 W3C 웹 표준을 완벽히 준수
+2. 크로스 브라우징 및 호환성 확보 : 주요 브라우저 테스트를 완료,CSS 유효성 검사를 통과
+3. 트렌디하고 동적인 사용자 경험 : 트렌디한 디자인과 JavaScript/jQuery를 활용
+4. 동적 목록 및 서버 부하 감소 : AJAX/JSON을 활용, 실시간 데이터 검색/필터링이 가능
+5. 사용자 편의 지리 정보 서비스 : 카카오맵 API를 연동
+
+
+
+* 미디어 쿼리를 활용하여 화면 너비(1280px이상, 1024px, 768px, 640px)에
+따라 레이아웃이 유동적으로 변하는 반응형 웹사이트
+
+1. 메인 페이지 동영상 삽입 : 메인 페이지에 동영상을 삽입하여 사용자에게 동적인 경험 제공
+2. 페이지 타이틀 애니메이션: Animate.css 라이브러리를 활용하여 각 페이지 타이틀 요소에
+    동적 애니메이션 효과 적용
+3. 그리드 레이아웃을 사용하여 반응형 레이아웃 구현
+4. AI 협업 기반 동적 애니메이션 : 이미지 변형 (타일, 순차적) 애니메이션 구현
+5. 스크롤 애니메이션 적용 : AOS 플러그인을 사용하여 스크롤에 반응하는 애니메이션 효과 적용
+6. 다양한 스와이퍼 활용 : 다양한 섹션에서 Swiper를 활용하여 콘텐츠 슬라이드 및 캐러셀 기능 구현
+7. 갤러리 레이아웃 구성 : 갤러리 페이지에 Masonry(메이슨리) 라이브러리를 사용하여
+    유기적인 그리드 (벽돌 쌓기) 레이아웃 구성
+8. 유튜브 영상 팝업 기능 : Magnific Popup 플러그인을 활용하여 반응형 팝업(iframe)으로 구현
+
+* AI 생성형 이미지 갤러리 - 제미나이 파이어플라이를 활용하여 제작한 이미지를 V0에서 웹페이지로 구현, Cursor에서 완성
+
