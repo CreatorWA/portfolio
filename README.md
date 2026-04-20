@@ -28,7 +28,7 @@ Figma / Adobe Firefly / Midjourney / Adobe Photoshop / Adobe Illustrator / Adobe
 
 ### 🖥️ UIUX
 
-* 기업형(PC) / 모바일 웹사이트
+* 기업형(PC) / 모바일 웹사이트 - 
 완성된 기업형 PC사이트 제작과 동일 콘텐츠와 디자인 요소를 기반으로,
 모바일 웹사이트를 별도로 최적화하여 제작
 
@@ -40,7 +40,7 @@ Figma / Adobe Firefly / Midjourney / Adobe Photoshop / Adobe Illustrator / Adobe
 
 
 
-* 미디어 쿼리를 활용하여 화면 너비(1280px이상, 1024px, 768px, 640px)에
+* 반응형 웹사이트 - 미디어 쿼리를 활용하여 화면 너비(1280px이상, 1024px, 768px, 640px)에
 따라 레이아웃이 유동적으로 변하는 반응형 웹사이트
 
 1. 메인 페이지 동영상 삽입 : 메인 페이지에 동영상을 삽입하여 사용자에게 동적인 경험 제공
