@@ -139,7 +139,7 @@
 
 #contentArea .amenities ul li .amenities_list {
     position: absolute;
-    width: 180px;
+    width: 200px;
     top: 15px;
     left: 50%;
     transform: translateX(-50%);
