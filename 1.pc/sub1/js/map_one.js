@@ -1,4 +1,8 @@
 function initMapOne() {
+    if (typeof kakao === 'undefined' || !kakao.maps) {
+        return;
+    }
+
     var container = document.getElementById('map');
     if (!container) {
         return;
@@ -34,9 +38,4 @@ function initMapOne() {
     });
 }
 
-window.addEventListener('load', function () {
-    if (typeof kakao === 'undefined' || !kakao.maps) {
-        return;
-    }
-    kakao.maps.load(initMapOne);
-});
+window.addEventListener('load', initMapOne);
