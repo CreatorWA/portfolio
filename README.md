@@ -17,7 +17,7 @@
 
 
 ### ⚒️ SKILLS
-Figma / Adobe Firefly / Midjourney / Adobe Photoshop / Adobe Illustrator / Adobe InDesign / V0 / Next.js / Google stitch / Cursor / shadcn/ui / Vercel / HTML5 / Tailwind CSS v4 / CSS3 / JavaScript / jQuery / 비동기 처리(AJAX, JSON) / Git / GitHub
+Figma / Adobe Firefly / Adobe Photoshop / Adobe Illustrator / Adobe InDesign / V0 / Next.js / Google stitch / Cursor / shadcn/ui / Vercel / HTML5 / Tailwind CSS v4 / CSS3 / JavaScript / jQuery / 비동기 처리(AJAX, JSON) / Git / GitHub
 
 ### ⚠️ 웹 표준 / 웹 접근성
 * W3C 마크업검사 및 css검사 완료 
