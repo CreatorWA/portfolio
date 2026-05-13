@@ -1,11 +1,19 @@
-window.onload = function () {
+function initMapOne() {
     var container = document.getElementById('map');
+    if (!container) {
+        return;
+    }
+
     var options = {
-        center: new kakao.maps.LatLng(37.43800919778249, 127.00579670885342), /* 위도 경도 */
-        level: 2  /* 지도확대 */
+        center: new kakao.maps.LatLng(37.43800919778249, 127.00579670885342),
+        level: 2
     };
 
     var map = new kakao.maps.Map(container, options);
+
+    setTimeout(function () {
+        map.relayout();
+    }, 0);
 
     var mapTypeControl = new kakao.maps.MapTypeControl();
     map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
@@ -20,8 +28,15 @@ window.onload = function () {
 
     marker.setMap(map);
 
-    var overlay = new kakao.maps.CustomOverlay({
+    new kakao.maps.CustomOverlay({
         map: map,
         position: marker.getPosition()
     });
 }
+
+window.addEventListener('load', function () {
+    if (typeof kakao === 'undefined' || !kakao.maps) {
+        return;
+    }
+    kakao.maps.load(initMapOne);
+});
